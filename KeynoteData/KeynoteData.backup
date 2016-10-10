@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command KeynoteData</Text>
+    <Description>Some description for KeynoteData</Description>
+    <Assembly>KeynoteData.dll</Assembly>
+    <FullClassName>KeynoteData.Command</FullClassName>
+    <ClientId>fbb27069-861b-4b9e-a975-ec7c06216b40</ClientId>
+    <VendorId>TBC_</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application KeynoteData</Name>
+    <Assembly>KeynoteData.dll</Assembly>
+    <FullClassName>KeynoteData.App</FullClassName>
+    <ClientId>c2026de1-2f32-4db8-be20-4c8442831257</ClientId>
+    <VendorId>TBC_</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
